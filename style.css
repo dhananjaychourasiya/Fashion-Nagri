@@ -1,0 +1,182 @@
+body{
+	font-family: 'PT sans', sans-serif;
+	background-color: #454545;
+	margin: 0;
+	color: #FFFFFF;
+	line-height: 1.4;
+}
+
+a{
+	text-decoration: none;
+	color: #FFFFFF;	
+}
+
+
+#showcase{
+	margin: 0;
+	padding: 0;
+	background: url('wallpage.jpg') no-repeat center/cover;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow-y:hidden ;
+}
+
+#showcase .container{
+	margin-top: 15vh;
+}
+
+#showcase h1{
+	font-size: 4rem;
+	margin-bottom: 5%;
+	color: black;
+
+}
+
+#showcase h2{
+	margin-top: 95px;
+	margin-bottom: 0;
+	font-size: 2rem;
+	color: black;
+}
+
+#showcase  .para1{
+	margin-top: 0;
+	color: black;
+	background-color: yellow;
+}
+
+nav{
+	height: 40px;
+	width:100%;
+	background-color: #454545;
+	color: black;
+	position: fixed;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+
+}
+
+nav li{
+	float: left;
+	display: inherit;
+}
+
+nav a{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 0px;
+	color: yellow;
+}
+
+nav li:hover{
+	background-color: white;
+	border-radius: 10px;
+}
+
+.container{
+	max-width: 1180px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 3rem;
+}
+
+.lead{
+	font-size: 1.3rem;
+}
+
+footer .footer-cols{
+	 display: grid;
+	 grid-gap: 10px ;
+	 grid-template-columns: repeat(3, 1fr);
+	 padding: 2rem;
+	 text-align: left;
+	 font-size: 14px;
+}
+
+footer .footer-cols ul{
+	list-style: none;
+}
+
+footer .footer-cols ul li:first-child{
+	font-size: 1.2rem;
+	color: yellow;
+	padding-bottom: 0.5rem;
+	border-bottom: white solid 1px;
+	margin-bottom: 1rem;
+}
+
+footer .footer-bottom{
+	color: black;
+	background-color: yellow;
+	border: 1rem;
+	text-align: center;
+}
+
+.section{
+	padding: 2rem 0;
+}
+
+.section-head{
+	font-size: 2.5rem;
+	margin: 0;
+}
+
+.section h3{
+	font-size: 2rem;
+}
+
+
+:root{
+	--primary-color : #b90415;
+	--primary-color-hover: #d3071b;
+	--secondary-color : #103063;
+	--secondary-color-hover: #143f85;
+	--light-color : #f4f4f4;
+}
+
+.btn{
+	padding: 1rem;
+	color: black;
+	display: inline-block;
+
+}
+
+.btn-primary {
+	background: var(--primary-color);
+}
+
+.btn-primary hover{
+	background: var(--primary-color-hover);
+}
+
+.btn-secondary {
+	background: var(--secondary-color);
+}
+
+.btn-secondary hover {
+	background: var(--secomdary-color-hover);
+}
+
+
+.text-light{
+	background: var(--light-color);
+	color: #333;
+}
+
+.wb{
+	margin-bottom: 1rem;
+}
+
+.wt{
+	margin-top: 1rem;
+}
+
+
+
+
