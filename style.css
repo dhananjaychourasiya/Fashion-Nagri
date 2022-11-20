@@ -6,6 +6,34 @@ body{
 	line-height: 1.4;
 }
 
+/*    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;*/
+
+------------------------------------------------------------------
+/*@keyframes bgcolor {
+    0% {
+        background-color: #45a3e5
+    }
+
+    30% {
+        background-color: #66bf39
+    }
+
+    60% {
+        background-color: #eb670f
+    }
+
+    90% {
+        background-color: #f35
+    }
+
+    100% {
+        background-color: #864cbf
+    }
+}*/
+------------------------------------------------------------
 a{
 	text-decoration: none;
 	color: #FFFFFF;	
@@ -15,7 +43,7 @@ a{
 #showcase{
 	margin: 0;
 	padding: 0;
-	background: url('wallpage.jpg') no-repeat center/cover;
+	background: url('home.jpg') no-repeat center/cover;
 	width: 100%;
 	height: 100vh;
 	position: relative;
@@ -27,9 +55,11 @@ a{
 }
 
 #showcase h1{
-	font-size: 4rem;
-	margin-bottom: 5%;
-	color: black;
+	font-size: 10rem;
+/*	margin-bottom: 5%;*/
+/*	color: #A600FF;*/
+  	animation: color-change 1s infinite;
+
 
 }
 
@@ -38,18 +68,20 @@ a{
 	margin-bottom: 0;
 	font-size: 2rem;
 	color: black;
+  	animation: color-change 1s infinite;
+
 }
 
 #showcase  .para1{
 	margin-top: 0;
 	color: black;
-	background-color: yellow;
+/*	background-color: black;*/
 }
 
 nav{
 	height: 40px;
 	width:100%;
-	background-color: #454545;
+	background-color: black;
 	color: black;
 	position: fixed;
 }
@@ -71,12 +103,13 @@ nav a{
 	text-align: center;
 	text-decoration: none;
 	padding: 10px 0px;
-	color: yellow;
+	color: white;
 }
 
 nav li:hover{
-	background-color: white;
+	background-color: #F0E0B0;
 	border-radius: 10px;
+
 }
 
 .container{
@@ -88,6 +121,9 @@ nav li:hover{
 
 .lead{
 	font-size: 1.3rem;
+	font-family: 'PT Sans', sans-serif;
+	margin: 0;
+	color: #FFFFFF;
 }
 
 footer .footer-cols{
@@ -105,15 +141,19 @@ footer .footer-cols ul{
 
 footer .footer-cols ul li:first-child{
 	font-size: 1.2rem;
-	color: yellow;
+	color: #F0E0B0;
 	padding-bottom: 0.5rem;
 	border-bottom: white solid 1px;
 	margin-bottom: 1rem;
 }
 
+footer .footer-cols ul li a{
+	color: white;
+}
+
 footer .footer-bottom{
 	color: black;
-	background-color: yellow;
+	background-color: white;
 	border: 1rem;
 	text-align: center;
 }
@@ -133,11 +173,11 @@ footer .footer-bottom{
 
 
 :root{
-	--primary-color : #b90415;
-	--primary-color-hover: #d3071b;
-	--secondary-color : #103063;
-	--secondary-color-hover: #143f85;
-	--light-color : #f4f4f4;
+	--primary-color : #F0E0B0;
+	--primary-color-hover: black;
+	--secondary-color : #F0E0B0;
+	--secondary-color-hover: white;
+	--light-color : white;
 }
 
 .btn{
@@ -166,17 +206,38 @@ footer .footer-bottom{
 
 .text-light{
 	background: var(--light-color);
-	color: #333;
+	color: white;
 }
 
-.wb{
+.mb{
 	margin-bottom: 1rem;
+	border-radius: 10px;
+	height: 1rem;
+/*	width: 10rem;*/
+
 }
 
-.wt{
+.ab{
 	margin-top: 1rem;
+	border-radius: 10px;
+	height: 1rem;
+
+}
+/*----------------------------------------------------------------------------------
+/*Below Code from stackoverflow for color changing continuty
+-----------------------------------------------------------------------------*/
+/*p {
+  animation: color-change 1s infinite;
+}
+*/
+@keyframes color-change {
+  0% { color: black; }
+  50% { color: #F0E0B0; }
+  100% { color: pink; }
 }
 
-
+.text-light{
+	background-color: black;
+}
 
 
