@@ -1,0 +1,113 @@
+body{
+	font-family: 'PT sans', sans-serif;
+	background-color: #454545;
+	margin: 0;
+	color: #FFFFFF;
+	line-height: 1.4;
+}
+/*body{
+	font-family: 'PT sans', sans-serif;
+	background-color: #454545;
+	margin: 0;
+	color: #FFFFFF;
+	line-height: 1.4;
+}
+*/
+
+a{
+	text-decoration: none;
+	color: #FFFFFF;	
+}
+
+
+.privacy{
+	padding-right: 10%;
+	font-size: 10px ;
+	padding-left: 10%;
+	padding-top: 2%;
+
+}
+
+
+
+nav{
+	height: 40px;
+	width:100%;
+	background-color: black;
+	color: black;
+	position: fixed;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+
+}
+
+nav li{
+	float: left;
+	display: inherit;
+}
+
+nav a{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 0px;
+	color: white;
+}
+
+nav li:hover{
+	background-color: #F0E0B0;
+	border-radius: 10px;
+
+}
+/*
+#showcase{
+	margin: 0;
+	padding: 0;
+	background: url('homecover.jpg') no-repeat center/cover;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	overflow-y:hidden ;
+}*/
+
+footer .footer-cols{
+	 display: grid;
+	 grid-gap: 10px ;
+	 grid-template-columns: repeat(3, 1fr);
+	 padding: 2rem;
+	 text-align: left;
+	 font-size: 14px;
+}
+
+footer .footer-cols ul{
+	list-style: none;
+}
+
+footer .footer-cols ul li:first-child{
+	font-size: 1.2rem;
+	color: #F0E0B0;
+	padding-bottom: 0.5rem;
+	border-bottom: white solid 1px;
+	margin-bottom: 1rem;
+}
+
+footer .footer-cols ul li a{
+	color: white;
+}
+
+footer .footer-bottom{
+	color: black;
+	background-color: white;
+	border: 1rem;
+	text-align: center;
+}
+
+p{
+	padding: 2%;
+	color: white;
+}
+
